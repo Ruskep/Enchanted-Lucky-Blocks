@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "luckychallenges:yellow_lucky_block"
+    },
+    "title": "Ветеран",
+    "description": "Заверши 50 испытаний",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

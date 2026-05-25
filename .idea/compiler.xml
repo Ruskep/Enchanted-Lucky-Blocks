@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.19.2/cc647a5b22dbc49b9a3267cebcee25fc4882b108/fabric-loader-0.19.2.jar" />
+        </processorPath>
+        <module name="lucky-challenges.client" />
+        <module name="lucky-challenges.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
+  </component>
+</project>

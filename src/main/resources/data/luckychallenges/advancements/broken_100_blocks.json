@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "luckychallenges:green_lucky_block"
+    },
+    "title": "Разрушитель",
+    "description": "Разбей 100 лаки-блоков",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.luckychallenges.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerDataPersistenceMixin"
+  ],
+  "client": [
+    "InventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

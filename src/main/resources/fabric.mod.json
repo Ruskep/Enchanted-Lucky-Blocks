@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "luckychallenges",
+  "version": "${version}",
+  "name": "Lucky Challenges",
+  "description": "Adds green and yellow lucky blocks with loot, challenges, upgrades, and a life system. / Аддон с зелёными и жёлтыми лаки-блоками, испытаниями, улучшениями и системой жизней.",
+  "authors": ["Ruskep"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/enchanted-lucky-blocks",
+    "issues": "https://github.com/Ruskep/Enchanted-Lucky-Blocks/issues",
+    "sources": "https://github.com/Ruskep/Enchanted-Lucky-Blocks",
+    "discord": "https://discord.gg/5WfX6qRArn"
+  },
+  "license": "MIT",
+  "icon": "assets/luckychallenges/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.luckychallenges.LuckyChallengesMod"],
+    "client": ["com.luckychallenges.LuckyChallengesClient"]
+  },
+  "mixins": [
+    "luckychallenges.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  }
+}
